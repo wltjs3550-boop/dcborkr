@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html 기본구조</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/asset/bootstrap-icons/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="wrap">
+    <header id="head">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="/"><img src="/img/logo.png" alt="부산디자인진흥원"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"    data-bs-target="#head_nav" aria-controls="head_nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="head_nav">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  진흥원뉴스
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">고시/공고</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">유관기관 고시/공고</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">진흥원소식</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">진흥원포토</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  디자인정보
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">진흥원발간자료</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">디자인진로체험</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">동남권디자인전문회사</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">디자인컨설팅</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  시설안내
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">대관시설안내</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">대관요금안내</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">대관현황</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">대관신청</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">입주안내</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">입주기업안내</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">층별안내</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">주차안내</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  사업안내
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">사업종합안내</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">부산디자인 융합산업 체계화</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">세계디자인 수도 부산 리더십</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">차세대 디자인산업 선도</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">글로벌허브 디자인자산 확충</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  민원공익신고
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">부패·공익신고</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">상담문의</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">청렴윤리경영</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">고객만족경영</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  진흥원소개
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">인사말</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">비전</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">주요연혁</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">진흥원상징(CI)</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">조직구성</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">인권경영</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">클린경영</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">찾아오시는길</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="contents">
+      <section class="main01">
+        <div class="container">
+          <div id="main_img" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#main_img" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#main_img" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#main_img" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-sm-6 text-white p-5">
+                    <h2 class="my-2">2026<small>사회적기업가육성사업</small></h2>
+                    <h2>UI/UX 웹디자인 실무과정</h2>
+                    <h4>창업팀 모집 및 서면심사</h4>
+                    <h4>사전교육실시  및 서면심사</h4>
+                    <h4>창업팀 최종 선정</h4>
+                    <h4>창업활동 및 지원</h4>
+                  </div>
+                  <div class="col-6">
+                    <img src="/img/01_main_img_01.png" alt="2026 UI/UX 웹디자인 실무과정 이미지">
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-6 text-white p-5">
+                    <h2 class="my-2">2027<small>사회적기업가육성사업</small></h2>
+                    <h2>UI/UX 웹디자인 실무과정</h2>
+                    <h4>창업팀 모집 및 서면심사</h4>
+                    <h4>사전교육실시  및 서면심사</h4>
+                    <h4>창업팀 최종 선정</h4>
+                    <h4>창업활동 및 지원</h4>
+                  </div>
+                  <div class="col-6">
+                    <img src="/img/01_main_img_01.png" alt="2026 UI/UX 웹디자인 실무과정 이미지">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-6 text-white p-5">
+                    <h2 class="my-2">2028<small>사회적기업가육성사업</small></h2>
+                    <h2>UI/UX 웹디자인 실무과정</h2>
+                    <h4>창업팀 모집 및 서면심사</h4>
+                    <h4>사전교육실시  및 서면심사</h4>
+                    <h4>창업팀 최종 선정</h4>
+                    <h4>창업활동 및 지원</h4>
+                  </div>
+                  <div class="col-6">
+                    <img src="/img/01_main_img_01.png" alt="2026 UI/UX 웹디자인 실무과정 이미지">
+                  </div>
+                </div>
+              </div>
+              
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#main_img" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#main_img" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="main02">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <h3 class="main_title">
+                News
+                <small>센터뉴스</small>
+                <a href="#"><img src="/img/more.png" alt="더보기"></a>
+              </h3>
+              <div class="row">
+                <div class="col-sm-5">
+                  <div class="bbs_img">
+                    <img src="/img/02_bbs_img.jpg" alt="센터뉴스사진">
+                    <h4>[센터소식] 2017 사회적기업가 육성사업 설명회</h4>
+                  </div>
+                </div>
+                <div class="col-sm-7">
+                  <ul class="list-unstyled bbs_list">
+                    <li><a href="#">[센터소식] 2017 사회적기업가 육성사업 설명회</a></li>
+                    <li><a href="#">[방송안내] KNN 생방송 투데이 ‘디자인으로 경</a></li>
+                    <li><a href="#">[해외교류] 인도네시아 디자인대학 교수 방문</a></li>
+                    <li><a href="#">[센터소식] “부산 디자이너의 밤” 행사를 마치고</a></li>
+                    <li><a href="#">[센터소식] 글로벌 에코디자인 맞춤형 교육 실시</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <h3 class="main_title">
+                Hot Issues
+                <small>핫이슈</small>
+                <a href="#"><img src="/img/more.png" alt="더보기"></a>
+              </h3>
+              <!--핫이슈 캐러셀 시작점-->
+              <div id="main_hot" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#main_hot" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#main_hot" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#main_hot" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/img/02_hot_01.png" alt="핫이슈1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/02_hot_01.png" alt="핫이슈2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/02_hot_01.png" alt="핫이슈3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#main_hot" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#main_hot" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          <!--핫이슈 캐러셀 끝-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main03">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <h3 class="main_title reverse">
+                Exhibition & Event
+                <small>이달의 전시/행사</small>
+                <a href="#"><img src="/img/more.png" alt="더보기"></a>
+              </h3>
+              <div class="row">
+                <div class="col-sm-5">
+                  <div class="poster">
+                    <img src="/img/03_poster_img.jpg" alt="전시행사">
+                  </div>
+                </div>
+                <div class="col-sm-7">
+                  <ul class="list-unstyled bbs_list">
+                    <li>
+                      <a href="#" class="text-center">
+                        <h4 class="mt-4">2026 메종 & 오브제 아시아 싱가포르 런칭</h4>
+                      </a>
+                        <p class="text-center">2026년 3월 10일부터 13일까지 개최
+                            마리아 베이 샌즈 엑스포 & 컨벤션 센터
+                            6500㎡의 전시 공간 – 180여개의 전시업체</p>
+                    </li>
+                    <li><a href="#">2026년 3월 10일부터 13일까지 개최 </a></li>
+                    <li><a href="#">마리나 베이 샌즈 엑스포 & 컨벤션 센터</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <h3 class="main_title reverse">
+                Quick Link
+                <small>빠른 바로가기</small>
+                <a href="#"><img src="/img/more.png" alt="더보기"></a>
+              </h3>
+              <div class="row main_quick">
+                <div class="col-4 col-sm-3">
+                  <a href="#">
+                    <img src="/img/03_icon1.png" alt="dcb시설안내">
+                    <p>dcb시설안내</p>
+                  </a>
+                </div>
+                <div class="col-4 col-sm-3">
+                  <a href="#">
+                    <img src="/img/03_icon2.png" alt="대관신청">
+                    <p>대관신청</p>
+                  </a>
+                </div>
+                <div class="col-4 col-sm-3">
+                  <a href="#">
+                    <img src="/img/03_icon3.png" alt="dcb입주안내">
+                    <p>dcb입주안내</p>
+                  </a>
+                </div>
+                <div class="col-4 col-sm-3">
+                  <a href="#">
+                    <img src="/img/03_icon4.png" alt="디자인자료실">
+                    <p>디자인자료실</p>
+                  </a>
+                </div>
+                <div class="col-4 col-sm-3">
+                  <a href="#">
+                    <img src="/img/03_icon5.png" alt="채용정보">
+                    <p>채용정보</p>
+                  </a>
+                </div>
+                <div class="col-4 col-sm-3">
+                  <a href="#">
+                    <img src="/img/03_icon6.png" alt="디자인정보지">
+                    <p>디자인정보지</p>
+                  </a>
+                </div>
+                <div class="col-4 col-sm-3 offset-2 offset-sm-0">
+                  <a href="#">
+                    <img src="/img/03_icon7.png" alt="상담문의">
+                    <p>상담문의</p>
+                  </a>
+                </div>
+                <div class="col-4 col-sm-3">
+                  <a href="#">
+                    <img src="/img/03_icon8.png" alt="고객제안">
+                    <p>고객제안</p>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main04">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-3 ">
+              <h3 class="main_title">
+                Design Issue
+                <small>디자인 이슈</small>
+                <a href="#"><img src="/img/more.png" alt="더보기"></a>
+              </h3>
+              <div class="book mx-auto">
+                <img src="/img/04_book1.jpg" class="w-100" alt="디자인이슈">
+              </div>
+              <ul class="list-unstyled bbs_list">
+                <li>
+                  <a href="#" class="text-center">
+                    <h4 class="h5 text-danger">2013 산업디자인 통계조사 보고서 (요약본)</h4>
+                  </a>
+                </li>
+                <li><a href="#">2017 산업디자인통계조사 보고서 </a></li>
+                <li><a href="#">2017 COLOR TREND</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <h3 class="main_title">
+                Magazines
+                <small>디자인 정보지</small>
+                <a href="#"><img src="/img/more.png" alt="더보기"></a>
+              </h3>
+              <div class="book mx-auto">
+                <img src="/img/04_book2.jpg" class="w-100" alt="디자인정보지">
+              </div>
+              <ul class="list-unstyled bbs_list">
+                <li>
+                  <a href="#" class="text-center">
+                    <h4 class="h5 text-danger">DESIGN NARE 디자인손책 13번째</h4>
+                  </a>
+                </li>
+                <li><a href="#">VOL12. 디자인손책 12번째 </a></li>
+                <li><a href="#">VOL11. 디자인손책 11번째</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6">
+              <h3 class="main_title">
+                Notification
+                <small>고시/공고</small>
+                <a href="#"><img src="/img/more.png" alt="더보기"></a>
+              </h3>
+              <ul class="list-unstyled bbs_list">
+                <li><a href="#">부산디자인센터 2층 전시실 용도변경 계획에 따른 공청회 개최</a>
+                <span class="badge text-bg-warning">WARNING</span>
+                <small class="float-end">2026-10-06</small></li>
+                <li><a href="#">[견적제출]부산디자인센터 사무기기 임차 단기 계약 수정 공고</a>
+                <span class="badge text-bg-success">NEW</span>
+                <small class="float-end">2026-10-06</small></li>
+                <li><a href="#">"2026 사회적 기업가 육성사업" 매니저 채용 공고</a>
+                <span class="badge text-bg-primary">HIT</span>
+                <small class="float-end">2026-10-06</small></li>
+                <li><a href="#">2026 창의적 디자인체험프로그램 운영 전문강사 공개모집 재공고</a>
+                <span class="badge text-bg-danger">HOT</span>
+                <small class="float-end">2026-10-06</small></li>
+                <li><a href="#">부산디자인센터 사무기기 임차 단가계약 수정 공고 계획 안내</a>
+                <span class="badge text-bg-info">INFO</span>
+                <small class="float-end">2026-10-06</small></li> 
+              </ul>
+              <h3 class="main_title">
+                Family Site
+                <small>관련사이트</small>
+                <a href="#"><img src="/img/more.png" alt="더보기"></a>
+              </h3>
+              <div class="row site_list">
+                <div class="col-6 col-sm-4">
+                  <a href="#" target="_blank"><img src="/img/04_site1.png" alt="국가인적자원개발컨소시엄"></a>
+                </div>
+                <div class="col-6 col-sm-4">
+                  <a href="#" target="_blank"><img src="/img/04_site2.png" alt="3D text-bg-primary"></a>
+                </div>
+                <div class="col-6 col-sm-4">
+                  <a href="#" target="_blank"><img src="/img/04_site3.png" alt="디자인체험관 design wave"></a>
+                </div>
+                <div class="col-6 col-sm-4">
+                  <a href="#" target="_blank"><img src="/img/04_site4.png" alt="해양디자인 DB"></a>
+                </div>
+                <div class="col-6 col-sm-4">
+                  <a href="#" target="_blank"><img src="/img/04_site5.png" alt="korea design"></a>
+                </div>
+                <div class="col-6 col-sm-4">
+                  <a href="#" target="_blank"><img src="/img/04_site6.png" alt="동남권디자인전문회사"></a>
+                </div>
+              </div>
+              <!--배너 시작-->
+              <div id="main_banner" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#main_banner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#main_banner" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#main_banner" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row g-2">
+                      <div class="col-4 p-0">
+                        <a href="#" target="_blank"><img src="/img/04_link1.jpg" alt="링크 1"></a>
+                      </div>
+                      <div class="col-4 p-0">
+                        <a href="#" target="_blank"><img src="/img/04_link2.jpg" alt="링크 2"></a>
+                      </div>
+                      <div class="col-4 p-0">
+                        <a href="#" target="_blank"><img src="/img/04_link3.jpg" alt="링크 3"></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row g-2">
+                      <div class="col-4 p-0">
+                        <a href="#" target="_blank"><img src="/img/04_link2.jpg" alt="링크 2"></a>
+                      </div>
+                      <div class="col-4 p-0">
+                        <a href="#" target="_blank"><img src="/img/04_link3.jpg" alt="링크 3"></a>
+                      </div>
+                      <div class="col-4 p-0">
+                        <a href="#" target="_blank"><img src="/img/04_link1.jpg" alt="링크 1"></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row g-2">
+                      <div class="col-4 p-0">
+                        <a href="#" target="_blank"><img src="/img/04_link3.jpg" alt="링크 3"></a>
+                      </div>
+                      <div class="col-4 p-0">
+                        <a href="#" target="_blank"><img src="/img/04_link2.jpg" alt="링크 2"></a>
+                      </div>
+                      <div class="col-4 px-0 px-sm-2">
+                        <a href="#" target="_blank"><img src="/img/04_link1.jpg" alt="링크 1"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#main_banner" data-bs-slide="prev">
+                  <i class="bi bi-chevron-left"></i>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#main_banner" data-bs-slide="next">
+                  <i class="bi bi-chevron-right"></i>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!--배너 종료-->
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="foot">
+      <div class="foot_link py-3">
+        <div class="container text-center">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item"><a href="#" class="text-danger">청렴상담센터</a></li>
+            <li class="list-inline-item">/</li>
+            <li class="list-inline-item"><a href="#" class="text-white">dcb규정집</a></li>
+            <li class="list-inline-item">/</li>
+            <li class="list-inline-item"><a href="#" class="text-white">개인정보처리방침</a></li>
+            <li class="list-inline-item">/</li>
+            <li class="list-inline-item"><a href="#" class="text-white">이용약관</a></li>
+            <li class="list-inline-item">/</li>
+            <li class="list-inline-item"><a href="#" class="text-white">FAQ</a></li>
+            <li class="list-inline-item">/</li>
+            <li class="list-inline-item"><a href="#" class="text-danger">오시는길 안내</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot_copy py-1 py-sm-3">
+        <div class="container">
+          <div class="row text-center text-sm-start">
+            <div class="col-sm-3">
+              <img src="/img/logo_foot.png" alt="부산디자인진흥원">
+            </div>
+            <div class="col-sm-6">
+              <p class="p-1 p-md-2">
+                [612-020] 부산광역시 해운대구 센텀동로 57 <br class="d-sm-none">(우동 1457번지)
+                <br>대표전화 : 051-790-1000 <br class="d-sm-none">
+                <span class="d-none d-sm-inline">|</span>
+                팩스 : 051-790-1099<br class="d-sm-none">
+                <span class="d-none d-sm-inline">|</span>
+                email : webmaster@dcb.or.kr
+              </p>
+              <p class="p-1 p-md-2"><small>copyright © 2008-2014 By DESIGN CENTER BUSAN.<br class="d-sm-none"> All rights reserved</small></p>
+            </div>
+            <div class="col-sm-3">
+              <dl class="row sns g-3">
+                <dt class="col-2 col-sm-4 h3 text-end pt-2">
+                  <i class="bi bi-facebook"></i>
+                </dt>
+                <dd class="col-4 col-sm-8 text-start">
+                  like us<br><span class="sns_count">7825</span>
+                </dd>
+                <dt class="col-2 col-sm-4 h3 text-end pt-2">
+                  <i class="bi bi-instagram "></i>
+                </dt>
+                <dd class="col-4 col-sm-8 text-start">
+                  follow us<br><span class="sns_count">8602</span>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!--자바는 보통 바디 가장 하단에 작성해서 로딩이 잘 되도록 함.-->
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

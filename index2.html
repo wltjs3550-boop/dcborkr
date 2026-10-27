@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html 기본구조</title>
+  <style>
+    #wrap {}
+    #head {}
+    #navi {}
+    .nav_logo {padding: 20px; margin: 20px; display: block;}
+    .nav_logo img {height: 40px;}
+
+    #contents {}
+    #foot {}
+    .container {}
+    
+  </style>
+</head>
+<body>
+  <div id="wrap">
+    <header id="head">
+      <div class="container">
+        <nav id="navi">
+          <!--상대경로: 내 위치 기준으로 찾는 것-->
+          <!--<img src="img/logo.png" alt="부산디자인진흥원">-->
+
+          <!--절대경로: 폴더 시작점부터 순차적으로 찾는 것 실무에서는 파일 이동이 발생할 수 있으니 절대경로 많이 씀!-->
+          <a href="/index.html" class="nav_logo"><img src="/img/logo.png" alt="부산디자인진흥원"></a>
+        </nav>
+      </div>
+    </header>
+    <main id="contents">
+      <div class="container">
+        <section class="main_img">
+
+        </section>
+      </div>
+    </main>
+    <footer id="foot">
+      <div class="container">
+
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
