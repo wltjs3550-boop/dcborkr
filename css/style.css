@@ -19,8 +19,8 @@ a:hover { color:#E2373E; font-weight: bold;}
 .main_title small {color: #E2373E; font-size: 16px;}
 .main_title a {float: right;}
 .main_title a img {height: 24px;}
-.main_title .reverse {color: #E2373E;}
-.main_title .reverse small {color: #d6d6d6;}
+.main_title.reverse {color: #E2373E;}
+.main_title.reverse small {color: #d6d6d6;}
 
 #foot {background-color: #4d4d4d; color: #fff;}
 .foot_link {border-bottom: #262626 1px solid;}
