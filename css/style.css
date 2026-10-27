@@ -34,11 +34,11 @@ margin: 0; padding: 8px 12px; text-align: center; border-radius: 0 0 16px 16px;}
 
 .bbs_list li {border-bottom: 1px #ccc dotted; padding: 4px 0;}
 
-.main01 {background-image: url(/img/01_bg.png), linear-gradient(180deg, #C71B1F 0%, #DB9C9F 100%);}
+.main01 {background-image: url(img/01_bg.png), linear-gradient(180deg, #C71B1F 0%, #DB9C9F 100%);}
 .main02, .main03, .main04 {padding: 20px 0;}
 .main02 {background: linear-gradient(0deg, #D7D7D7 0%, #E5E5E5 50%, #F6F6F6 100%);}
 .main03 {
-  background-image: url(/img/03_bg2.png), url(/img/03_bg1.png);
+  background-image: url(img/03_bg2.png), url(img/03_bg1.png);
   background-size: cover, auto;
   background-repeat: no-repeat, repeat;
   background-position: center center, center;
@@ -60,7 +60,7 @@ margin: 0; padding: 8px 12px; text-align: center; border-radius: 0 0 16px 16px;}
 #main_banner .carousel-control-prev,
 #main_banner .carousel-control-next {width: 30px; color: #333; font-size: 24px;}
 
-.poster {background: url(/img/03_poster_bg.jpg) 100% center no-repeat;
+.poster {background: url(img/03_poster_bg.jpg) 100% center no-repeat;
   background-size: 100% 100%;
   padding: 13% 13%;
   width: 80%;
